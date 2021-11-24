@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+    name: version3servicesredisimageredisalpineports63796379
+spec:
+    type: LoadBalancer
+    ports:
+    - port: 8080 
+    selector:
+        app: version3servicesredisimageredisalpineports63796379
